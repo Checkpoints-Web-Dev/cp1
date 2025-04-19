@@ -25,23 +25,29 @@ console.log(num1 === num2); // Igual e verifica o tipo
 
 // QUESTÃO 3
 
-let peso = parseFloat(prompt("Digite seu peso (kg):"));
-let altura = parseFloat(prompt("Digite sua altura (m):"));
+// let peso = parseFloat(prompt("Digite seu peso (kg):"));
+// let altura = parseFloat(prompt("Digite sua altura (m):"));
 
-let imc = peso / (altura * altura);
+// let imc = peso / (altura * altura);
 
-console.log(`Seu IMC é: ${imc.toFixed(2)}`);
+// console.log(`Seu IMC é: ${imc.toFixed(2)}`);
 
-switch (true) {
-  case imc < 18.5:
-    console.log("Você está abaixo do peso.");
-    break;
-  case imc <= 24.9:
-    console.log("Você está no peso ideal.");
-    break;
-  case imc > 24.9:
-    console.log("Você está acima do peso.");
-    break;
-  default:
-    console.log("Erro ao classificar o IMC.");
+// switch (true) {
+//   case imc < 18.5:
+//     console.log("Você está abaixo do peso.");
+//     break;
+//   case imc <= 24.9:
+//     console.log("Você está no peso ideal.");
+//     break;
+//   case imc > 24.9:
+//     console.log("Você está acima do peso.");
+//     break;
+//   default:
+//     console.log("Erro ao classificar o IMC.");
+// }
+
+// QUESTÃO 4
+
+for (let i = 1; i <= 50; i++) {
+  console.log(`O valor é: ${i}!`);
 }
