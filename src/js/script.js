@@ -25,26 +25,26 @@ console.log(num1 === num2); // Igual e verifica o tipo
 
 // QUESTÃO 3
 
-// let peso = parseFloat(prompt("Digite seu peso (kg):"));
-// let altura = parseFloat(prompt("Digite sua altura (m):"));
+let peso = parseFloat(prompt("Digite seu peso (kg):"));
+let altura = parseFloat(prompt("Digite sua altura (m):"));
 
-// let imc = peso / (altura * altura);
+let imc = peso / (altura * altura);
 
-// console.log(`Seu IMC é: ${imc.toFixed(2)}`);
+alert(`Seu IMC é: ${imc.toFixed(2)}`);
 
-// switch (true) {
-//   case imc < 18.5:
-//     console.log("Você está abaixo do peso.");
-//     break;
-//   case imc <= 24.9:
-//     console.log("Você está no peso ideal.");
-//     break;
-//   case imc > 24.9:
-//     console.log("Você está acima do peso.");
-//     break;
-//   default:
-//     console.log("Erro ao classificar o IMC.");
-// }
+switch (true) {
+  case imc < 18.5:
+    alert("Você está abaixo do peso.");
+    break;
+  case imc <= 24.9:
+    alert("Você está no peso ideal.");
+    break;
+  case imc > 24.9:
+    alert("Você está acima do peso.");
+    break;
+  default:
+    alert("Erro ao classificar o IMC.");
+}
 
 // QUESTÃO 4
 
@@ -67,6 +67,20 @@ if (
   alert("Login realizado com sucesso!");
 } else {
   alert("Falha de autenticação. Usuário ou senha inválidos!");
+}
+
+// QUESTÂO 6
+
+let notas = [8, 6, 7, 5, 9, 4, 7];
+
+let somaNotas = notas.reduce((total, nota) => total + nota, 0);
+
+let media = somaNotas / notas.length;
+
+if (media >= 6) {
+  alert(`Aluno aprovado! Média: ${media.toFixed(2)}`);
+} else {
+  alert(`Aluno reprovado! Média: ${media.toFixed(2)}`);
 }
 
 // QUESTÂO 7
