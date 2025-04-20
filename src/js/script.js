@@ -51,3 +51,19 @@ console.log(num1 === num2); // Igual e verifica o tipo
 for (let i = 1; i <= 50; i++) {
   console.log(`O valor é: ${i}!`);
 }
+
+// QUESTÂO 7
+
+let nome = "Pedro";
+let idade = 17;
+let curso = "Engenharia de Software";
+let ano = 2025;
+
+let info = `
+  Nome: ${nome} <br>
+  Idade: ${idade} anos <br>
+  Curso: ${curso} <br>
+  Ano: ${ano}
+`;
+
+document.getElementById("info").innerHTML = info;
