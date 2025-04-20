@@ -52,6 +52,23 @@ for (let i = 1; i <= 50; i++) {
   console.log(`O valor é: ${i}!`);
 }
 
+// QUESTÃO 5
+
+const usuarioCadastrado = "admin";
+const senhaCadastrada = "1234";
+
+let usuarioDigitado = prompt("Digite o nome de usuário:");
+let senhaDigitada = prompt("Digite a senha:");
+
+if (
+  usuarioDigitado === usuarioCadastrado &&
+  senhaDigitada === senhaCadastrada
+) {
+  alert("Login realizado com sucesso!");
+} else {
+  alert("Falha de autenticação. Usuário ou senha inválidos!");
+}
+
 // QUESTÂO 7
 
 let nome = "Pedro";
