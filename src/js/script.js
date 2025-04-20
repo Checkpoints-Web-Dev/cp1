@@ -67,3 +67,15 @@ let info = `
 `;
 
 document.getElementById("info").innerHTML = info;
+
+// QUESTÂO 8
+
+const texto =
+  "Tecnologia é um produto da ciência e da engenharia que envolve um conjunto de instrumentos, métodos e técnicas que visam a resolução de problemas. ";
+
+console.log(texto);
+
+console.log(`Primeira posição de "em": ${texto.indexOf("em")}`);
+console.log(`Última posição de "ia": ${texto.lastIndexOf("ia")}`);
+console.log(`Palavra ciência: ${texto.indexOf("ciência")}`);
+console.log(`Palavra métodos: ${texto.indexOf("métodos")}`);
