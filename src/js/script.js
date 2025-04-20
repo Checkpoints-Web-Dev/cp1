@@ -79,3 +79,9 @@ console.log(`Primeira posição de "em": ${texto.indexOf("em")}`);
 console.log(`Última posição de "ia": ${texto.lastIndexOf("ia")}`);
 console.log(`Palavra ciência: ${texto.indexOf("ciência")}`);
 console.log(`Palavra métodos: ${texto.indexOf("métodos")}`);
+
+// QUESTÂO 9
+
+let valor = "100.9";
+let valorConvertido = parseFloat(valor);
+console.log(typeof valorConvertido);
